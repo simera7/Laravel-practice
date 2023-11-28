@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+figure {
+	max-width: 100%;
+}
+img {
+	margin: 0 auto;
+	width: 100%;
+	max-height: 550px;
+	display: block;
+}
+.nav_container li,
+.nav_container form {
+	display: inline;
+}
+
+.nav_container li {
+	list-style: none;
+}
+
+.nav_container a {
+	text-decoration: none;
+	color: rgb(255, 252, 252);
+	font-size: 1.2rem;
+}
+
+.nav_container {
+	background-color: rgb(122, 69, 175);
+}
+
+.nav_container ul {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+.nav_container a:hover,
+a:focus {
+	cursor: pointer; /* Corrected from 'pointed' to 'pointer' */
+	color: rgb(122, 146, 243);
+}
+.blog_container {
+	padding-top: 5rem;
+	display: grid;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.blog_content {
+	margin-bottom: 10px;
+	display: grid;
+	max-width: 1000px;
+	grid-template-columns: 1fr 2fr 2fr 1fr;
+	grid-template-areas:
+		". title title ."
+		". img img ."
+		". blog blog ."
+		". blog blog .";
+}
+
+.blog_title {
+	padding: 15px;
+	margin-bottom: 5px;
+	grid-area: title;
+	border: 2px solid #333; /* Apply border to each grid item */
+
+	/* Removed quotes */
+}
+
+.blog_img_container {
+	grid-area: img; /* Removed quotes */
+	border: 2px solid #c30909cf;
+	margin-bottom: 20px;
+}
+
+.para_h {
+	grid-area: blog; /* Removed quotes */
+	border: 1px solid #dbd7d731;
+	margin-bottom: 50px;
+}
+.para_h p {
+	padding: 25px;
+	font-size: 1.1rem;
+	font-family: "Courier New", Courier, monospace;
+	text-align: left;
+}
+.para_h h3 {
+	padding: 25px;
+	font-size: 1.1rem;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.alert {
+	text-align: center;
+	background-image: linear-gradient(rgb(164, 81, 81), black);
+	margin: 100px auto;
+	padding: 100px;
+	width: 80vw;
+}
+.notFound {
+	color: red;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 2rem;
+}
+
+.notFoundP {
+	text-align: center;
+	margin-top: 20px;
+	color: rgb(179, 56, 56);
+}

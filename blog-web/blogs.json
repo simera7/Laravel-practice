@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Software Enginnering",
+        "author": "olana kalbesa",
+        "email": "olman4jesus@gmail.com",
+        "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quaerat neque libero debitis magni et harum, doloribus minus ea consequuntur voluptatibus culpa, eligendi quasi iure necessitatibus! Nostrum hic rem recusandae.\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quaerat neque libero debitis magni et harum, doloribus minus ea consequuntur voluptatibus culpa, eligendi quasi iure necessitatibus! Nostrum hic rem recusandae.\r\nLorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quaerat neque libero debitis magni et harum, doloribus minus ea consequuntur voluptatibus culpa, eligendi quasi iure necessitatibus! Nostrum hic rem recusandae.\r\n",
+        "image": "images\/gagu.jpg"
+    },
+    {
+        "title": "Web development",
+        "author": "olamn gemechu",
+        "email": "hikaisan7@gmail.com",
+        "message": "Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.",
+        "image": "images\/gagu.jpg"
+    },
+    {
+        "title": "why to learn flutter",
+        "author": "olimers tamiru",
+        "email": "olimers211@gmial.com",
+        "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatibus dolores quo obcaecati porro repellendus repellat, sit illo facere itaque animi tempora id adipisci voluptatum rerum architecto nihil debitis dolor.",
+        "image": ""
+    },
+    {
+        "title": "my love",
+        "author": "kiyya",
+        "email": "hikaisan7@gmail.com",
+        "message": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptatibus dolores quo obcaecati porro repellendus repellat, sit illo facere itaque animi tempora id adipisci voluptatum rerum architecto nihil debitis dolor.",
+        "image": "images\/photo_2023-07-16_13-35-40.jpg"
+    }
+]
